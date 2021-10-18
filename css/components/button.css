@@ -1,0 +1,20 @@
+.btn-orange{
+	background-color: #C49D83;
+	color: white;
+	text-align: center;
+	padding: 15px 60px;
+	border-radius: 4px;
+	margin: 10px 0px;
+}
+.btn-grey{
+	background-color: #EDEDED;
+    color: #B7B2AE;
+    text-align: left;
+    padding-top: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+   	margin: 10px 0px;
+}

@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/image.css");
+@import url("components/header.css");
+@import url("components/footer.css");
+@import url("components/container.css");
+
+body{
+	font-family: Open Sans, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+	color: black;
+	margin: 0px;
+}
+h1{
+	font-family: Catamaran, sans-serif;
+	font-style: normal;
+	font-size: 32px;
+	line-height: 52px;
+	color: black;
+}
+h2{
+	font-family: Catamaran, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 39px
+}
+h3{
+	font-family: Catamaran,sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 30px;
+}
+h4{
+	font-family: Catamaran,sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+}
+a{
+	text-decoration: none;
+}
