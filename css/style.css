@@ -4,10 +4,12 @@
 @import url("components/banner.css");
 @import url("components/button.css");
 @import url("components/card.css");
-@import url("components/image.css");
-@import url("components/header.css");
+@import url("components/navigation_menu.css");
 @import url("components/footer.css");
-@import url("components/container.css");
+@import url("components/product_page.css");
+@import url("components/item_page.css");
+@import url("components/form.css");
+@import url("components/images.css");
 
 body{
 	font-family: Open Sans, sans-serif;
