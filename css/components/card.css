@@ -28,3 +28,13 @@ display: flex;
 .card p{
   margin: 5px;
 }
+
+
+
+
+.cards-footer{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 300px 40px 50px;
+}
+
