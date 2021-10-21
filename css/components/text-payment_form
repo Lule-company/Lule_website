@@ -1,0 +1,13 @@
+#payment{
+	margin-left: 90px;
+	margin-bottom: 40px;
+}
+
+.p{
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000000;
+}
