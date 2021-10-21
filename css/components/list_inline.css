@@ -15,3 +15,33 @@
 	padding: 10px;
 
 }
+
+.list-left{
+	list-style-type: none;
+	list-style: none;
+	padding: 0px;
+}
+
+.list-inline-footer i{
+	list-style: none;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 40px;
+}
+
+.list-inline-footer{
+	list-style: none;
+	padding-right: 100px;
+	padding: 0px;
+}
+
+.list-inline-footer li{
+	display: inline;
+	padding: 10px;
+}
+
+
+
+
+
+
