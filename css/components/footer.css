@@ -1,6 +1,7 @@
 .email-box-notempty-focused{
 	height: 45px;
 	background-color: #EDEDED;
+	border: none;
 }
 
 .btn-submit-footer{
@@ -11,6 +12,7 @@
 	border-radius: 4px;
 	margin: 10px 0px;
 	height: 50px;
+	border: none;
 }
 
 .list-left{
