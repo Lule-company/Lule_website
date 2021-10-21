@@ -41,8 +41,11 @@
 
 .cards-footer{
   display: flex;
-  flex-wrap: nowrap;
-  margin: 300px 40px 50px;
+    flex-wrap: nowrap;
+    margin: 300px 40px 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
 }
 
 .newsletter{
