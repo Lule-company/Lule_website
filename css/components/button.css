@@ -1,20 +1,20 @@
 .btn-orange{
 	background-color: #C49D83;
-	color: white;
+	color: #e4e4e4;
 	text-align: center;
 	padding: 15px 60px;
 	border-radius: 4px;
 	margin: 10px 0px;
+	font-family: roboto, sans-serif;
+	font-weight: 300;
 }
 .btn-grey{
 	background-color: #EDEDED;
-    color: #B7B2AE;
-    text-align: left;
-    padding-top: 10px;
-    border-radius: 4px;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 40px;
+	color: #B7B2AE;
+	text-align: left;
+	border-radius: 4px;
+	padding: 15px 60px;
    	margin: 10px 0px;
+	font-family: roboto, sans-serif;
+	font-weight: 300;
 }
