@@ -1,43 +1,77 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Lule</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<div class="banner">
-		  <div class="container">
-		    <h2>Your tag line</h2>
-		    <a href="" class="btn-orange">Your call-to-action</a>
-		  </div>
+<head>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+
+
+<body>
+
+<div class="white-card">
+
+	<h1 id="payment">Payment Method</h1>
+
+	<ul>
+		<div class="choice">
+			<li>
+ 			<input type="checkbox" class="checkbox" name="checkbox1">
+  			<label for="checkbox1">Debit or Credit Card</label>
+  			</li>
 		</div>
-		<div class="container">
-			<h1>Your first UI kit</h1>
-			<h2>This is the H2</h2>
-			<h3>This is the H3</h3>
-			<h4>This is the H4</h4>
-			<p>Let's code components in CSS</p>	
-			<br>
-			<a href="" class="btn-grey">Your call-to-action number 2</a>
-			<br>
-		<div class="cards">
-			<div class="card">
-				<img src="images/99.png" alt="Le Wagon Paris">
-				<h4>Paris</h4>
-				<p>product</p>
+
+		<div class="choice">
+			<li>
+	  		<input type="checkbox" class="checkbox" name="checkbox2">
+	  		<label for="checkbox2">	<img src="images/logo-paypal.png" class="img-logo" width="50px" alt="paypal"></label>
+			</li>
+		</div>
+	</ul>
+
+	<div class="column-right-card">
+		<ul>
+			<li>
+				<p>Last Name</p>
+			</li>
+			<div class="inputs">
+					<input class="box" autocomplete="off" name="q" placeholder="" type="email">
 			</div>
-			<div class="card">
-				<img src="images/99.png" alt="Le Wagon Paris">
-				<h4>Paris</h4>
-			</div>
-			<div class="card">
-				<img src="images/99.png" alt="Le Wagon Paris">
-				<h4>Paris</h4>
-				<h3> Louise</h3>
-			</div>
-		</div>
-		</div>
-		</div>
-	</body>
-	</html>
+		</ul>
+	</div>
+
+	<div class="column-left-card">
+		<ul>
+			<li>
+				<p>First Name</p>
+			</li>
+				<div class="inputs">
+					<input class="box" autocomplete="off" name="q" placeholder="" type="email">
+				</div>
+			<li>
+				<p>Credit Card Number</p>
+			</li>
+				<div class="inputs">
+					<input class="box" autocomplete="off" name="q" placeholder=" ....  ....  ....  ....  .... " type="email">
+				</div>
+			<li>
+				<p>Security Code</p>
+			</li>
+				<div class="inputs">
+					<input class="box" autocomplete="off" name="q" placeholder="CVC" type="email">
+				</div>
+			<li>
+				<p>Card Expiration</p>
+			</li>
+				<div class="inputs">
+					<input class="box" autocomplete="off" name="q" placeholder="MM/YY" type="email">
+				</div>
+		</ul>
+	</div>
+
+	<div class="submit-order">
+		<input class="submit-btn" value="Submit Order" type="submit">
+	</div>
+
+
+</div>
+</body>
