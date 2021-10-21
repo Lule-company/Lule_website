@@ -7,9 +7,12 @@
 .menu
 {
     background-color: #FAFAFA;
-    display: inline-flex;
-    background-size: cover;   
+    display: flex;
+    background-size: cover;
+    align-content: center;
     background-position: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .navigation_menu 
