@@ -13,9 +13,9 @@
 @import url("components/product_page.css");
 @import url("components/footer.css");
 @import url("components/images_size.css");
+@import url("components/id.css");
 
-
-body{
+p{
 	font-family: Open Sans, sans-serif;
 	font-style: normal;
 	font-weight: 300;
