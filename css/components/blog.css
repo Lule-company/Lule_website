@@ -1,4 +1,4 @@
-.cards_blog {
+.box_blog {
     display: flex;
     flex-wrap: nowrap;
     margin: 50px 40px;
@@ -16,7 +16,7 @@
 .card_product h4 {
     margin: inherit;
 }
-.cards_blog img{
+.box_blog img{
     width: 400px;
     height: -webkit-fill-available;
     filter: saturate(60%) brightness(97%);
