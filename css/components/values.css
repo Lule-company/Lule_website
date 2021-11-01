@@ -1,0 +1,28 @@
+.box_values {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+    justify-content: center;
+}
+.box_value{
+    flex-basis: 180px;
+    margin: 10px;
+}
+.box_value {
+    padding: 10px;
+    display: table;
+}
+.box_value img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    filter: saturate(60%) brightness(97%);
+}
+.box_value h4{
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.box_value p{
+    margin: 0px;
+}
