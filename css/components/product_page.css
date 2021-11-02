@@ -1,7 +1,7 @@
 .box_product {
     display: flex;
     flex-wrap: nowrap;
-    margin: 50px 40px;
+    margin: 50px 0px;
 }
 
 .card_product {
