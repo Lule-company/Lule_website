@@ -1,0 +1,10 @@
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  padding: 11px;
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  border: 1px solid none;
+}
