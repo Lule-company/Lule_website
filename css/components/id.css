@@ -1,6 +1,6 @@
 #text-home_page{
 	padding-left: 50px;
 }
-#image_bottom{
-	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%), url(../../images/banner_ child.png); 
+#banner_child{
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%), url(../../images/banner_child.png); 
 }
