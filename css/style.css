@@ -14,7 +14,8 @@
 @import url("components/footer.css");
 @import url("components/images_size.css");
 @import url("components/id.css");
-
+@import url("components/values.
+	
 p{
 	font-family: Open Sans, sans-serif;
 	font-style: normal;
@@ -54,4 +55,5 @@ h4{
 }
 a{
 	text-decoration: none;
+	color: black;
 }
