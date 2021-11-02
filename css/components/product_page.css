@@ -1,10 +1,10 @@
-.box_product {
+.boxs_product {
     display: flex;
     flex-wrap: nowrap;
     margin: 50px 0px;
 }
 
-.card_product {
+.box_product {
     display: flex;
     padding-left: 15px;
     flex-direction: column;
@@ -13,7 +13,7 @@
     align-items: start;
 
 }
-.card_product h4 {
+.box_product h4 {
     margin: inherit;
 }
 
