@@ -15,3 +15,8 @@
 	width: 100px;
 	height: 100px;
 }
+.img4{
+	width: 273px;
+	height: 285px;
+	object-fit: cover;	
+}
