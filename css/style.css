@@ -15,6 +15,7 @@
 @import url("components/images_size.css");
 @import url("components/id.css");
 @import url("components/values.css");
+@import url("components/search.css");
 	
 p{
 	font-family: Open Sans, sans-serif;
