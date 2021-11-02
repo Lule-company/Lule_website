@@ -1,24 +1,19 @@
 .cards {
   display: flex;
-  flex-wrap: nowrap;
-  margin: 50px 40px;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+    justify-content: center;
 }
 .card{
   flex-basis: 180px;
   margin: 10px;
-}
-.card {
-display: flex;
-    justify-content: flex-start;
-    padding: 10px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: 220px;
-    align-items: center;
+  padding: 10px;
+   display: table;
 }
 .card img {
   width: 170px;
-  height: -webkit-fill-available;
+  height: 170px;
+  object-fit: cover;
   filter: saturate(60%) brightness(97%);
 }
 .card h4{
@@ -29,3 +24,5 @@ display: flex;
 .card p{
   margin: 0px;
 }
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05);
