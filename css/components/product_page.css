@@ -17,6 +17,18 @@
     margin: inherit;
 }
 
+#quantity {
+  padding: 11px;
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  border: 1px solid none;
+  height: auto;
+  width: 157px;
+  left: auto;
+}
+
 .zoom {
  overflow: hidden;
 cursor: zoom-in; 
@@ -29,8 +41,6 @@ transition: all;
 #image:hover  {
 transform: scale(2) translate(20px)
 }
-
-
 
 
 
