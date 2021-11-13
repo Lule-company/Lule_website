@@ -17,6 +17,18 @@
     margin: inherit;
 }
 
+.zoom {
+ overflow: hidden;
+cursor: zoom-in; 
+}
+
+#image {
+transition: all;
+}
+
+#image:hover  {
+transform: scale(2) translate(20px)
+}
 
 
 
