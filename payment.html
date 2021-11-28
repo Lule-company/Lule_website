@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+
+<body>
+
+<div class="container">
+	<div class="white-card">
+		<h1 id="payment">Payment Method</h1>
+			<ul>
+				<div class="choice">
+					<li>
+					<input type="checkbox" class="checkbox" name="checkbox1">
+					<label for="checkbox1">Debit or Credit Card</label>
+					</li>
+				</div>
+				<div class="choice">
+					<li>
+					<input type="checkbox" class="checkbox" name="checkbox2">
+					<label for="checkbox2">	<img src="images/logo-paypal.png" class="img-logo" width="50px" alt="paypal"></label>
+					</li>
+				</div>
+			</ul>
+
+			<div class="column-right-card">
+				<ul>
+					<li>
+						<p>Last Name</p>
+					</li>
+					<div class="inputs">
+							<input class="box" autocomplete="off" name="q" placeholder="" type="email">
+					</div>
+				</ul>
+			</div>
+
+			<div class="column-left-card">
+				<ul>
+					<li>
+						<p>First Name</p>
+					</li>
+						<div class="inputs">
+							<input class="box" autocomplete="off" name="q" placeholder="" type="email">
+						</div>
+					<li>
+						<p>Credit Card Number</p>
+					</li>
+						<div class="inputs">
+							<input class="box" autocomplete="off" name="q" placeholder=" ....  ....  ....  ....  .... " type="email">
+						</div>
+					<li>
+						<p>Security Code</p>
+					</li>
+						<div class="inputs">
+							<input class="box" autocomplete="off" name="q" placeholder="CVC" type="email">
+						</div>
+					<li>
+						<p>Card Expiration</p>
+					</li>
+						<div class="inputs">
+							<input class="box" autocomplete="off" name="q" placeholder="MM/YY" type="email">
+						</div>
+				</ul>
+			</div>
+
+			<div class="submit-order">
+				<input class="submit-btn" value="Submit Order" type="submit">
+			</div>
+	</div>
+</div>
+
+
+
+<div>
+	<button id="btnPopup" class="btnPopup">Afficher Popup</button>
+		<div id="overlay" class="overlay">
+		<div id="popup" class="popup">
+			<h2>
+			Exemple simple de popup 
+			<span id="btnClose" class="btnClose">&times;</span>
+			</h2>
+		<div>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a nulla 
+		a massa interdum imperdiet sed nec nibh. Proin porttitor euismod nulla ut 
+		interdum. Cras elementum placerat aliquam.
+		</div>
+		</div>
+		</div>
+</div>
+
+
+
+<script src="payment.js"></script>
+</body>
