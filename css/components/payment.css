@@ -68,6 +68,7 @@
 	height: 50px;
 	margin-left: 90px;
 	border: none;
+	cursor: pointer;
 }
 
 .column-left-card li{
@@ -102,6 +103,28 @@
 	margin-bottom: 40px;
 }
 
+
+
+
+
+/* pop-up */
+
+body{
+	background: #131416;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+a{
+	text-decoration: none;
+	background-color: white;
+	padding: 15px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	color: black;
+}
 
 .modal{
 	visibility: hidden;
@@ -138,5 +161,3 @@
   top: 25px;
   color: black;
 }
-
-
