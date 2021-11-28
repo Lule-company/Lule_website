@@ -17,6 +17,7 @@
 @import url("components/values.css");
 @import url("components/search.css");
 @import url("components/cart.css");
+@import url("components/payment.css");
 	
 p{
 	font-family: Open Sans, sans-serif;
