@@ -7,15 +7,12 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@300&display=swap" rel="stylesheet">
-		<script src="https://kit.fontawesome.com/bd99456aba.js" crossorigin="anonymous">
-		</script>
-		
-		
+		<script src="https://kit.fontawesome.com/bd99456aba.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="../../css/style.css">
 	</head>
 	<body>
 		<div class='menu'>
-			<img src='../../images/Logo.png' alt='Lule' class='Logo'>
+			<a href="../../index.html"><img src='../../images/Logo.png' alt='Lule' class='Logo'></a>
 		       <ul class='navigation_menu'>
 			      <li><a href="../../index.html"><p>Home</p></a></li>
 			      <li class="dropdown"><p>Shop</p><a href=""></a>
@@ -38,35 +35,30 @@
 		       <a href=""><img src='../../images/Search.png' alt='search'></a>
 		       <a href=""><img src='../../images/Cart.png' alt='cart'></a>
 		</div>
-
 		<div class="container">
 			<div class="boxs_product">
-				<img class="box_product" src="../../images/lidhês.png"> 
+				<div class="zoom">
+					<img class="box_product" id="image" src="../../images/sac à dos beige.jpg"> 
+				</div>
 				<div class="box_product">
-					<h4>Lidhês</h4>
+					<h2>Lidhês</h2>
 					<h4>50€</h4>
-					<a href="#" class="btn-grey" type="button">Quantity</a>
+					<br>
+					<h4>Quantity</h4>
+					<input type="number" value="Quantity" step="1" id="quantity" max="20" min="0">
 					<a href="#" class="btn-orange" type="button">Buy now</a>
 					<a href="#" class="btn-orange" type="button">Add to card</a>
 					<p>Sober beige backpack for children with a practical outside pocket with zip. It also has an adjustable chest strap and padding on the back and shoulders</p>
 				</div>
 			</div>
 		</div>
-	</body>
-
 		<div class="cards-footer">
 			<div class="quick-links">		
 				<h4><strong>Quick links</strong></h4>
 				<ul class="list-left"> 
-					<li>
-						<p>Home</p>
-					</li>
-					<li>
-						<p>Return & Second hand</p>
-					</li>
-					<li>
-						<p>About us</p>
-					</li>
+					<li><a href="../../index.html"><p>Home</p></a></li>
+					<li><a href="../../second_hand.html"><p>Return & Second hand</p></a></li>
+					<li><a href="../../about_us.html"><p>About us</p></a></li>
 				</ul>
 			</div>
 			<div class="newsletter">
@@ -75,18 +67,12 @@
 					<div>
 						<input id="newsletter-email" class="email-box-notempty-focused" autocomplete="off" name="q" placeholder="Email address" type="email">
 						<input id="btn-submit-footer" class="btn-submit-footer" value="Subscribe" type="submit">
-
 					<ul class="list-inline-footer">
-						<li>
-							<i class="fab fa-instagram"></i>
-						</li>
-						<li>
-							<i class="fab fa-facebook-square"></i>
-						</li>
-						<li>
-							<i class="fas fa-thumbtack"></i>
-						</li>
+						<li><i class="fab fa-instagram"></i></li>
+						<li><i class="fab fa-facebook-square"></i></li>
+						<li><i class="fas fa-thumbtack"></i></li>
 					</ul>
 					</div>
 			</div>
 		</div>
+	</body>

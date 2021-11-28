@@ -42,7 +42,7 @@
 .cards-footer{
   display: flex;
     flex-wrap: nowrap;
-    margin: 10px 40px 50px;
+    margin: 0px;
     justify-content: center;
     align-items: center;
     background-color: #FAFAFA;
@@ -51,5 +51,5 @@
 .newsletter{
 	margin-right: 10px;
 	padding-right: 10px;
-	margin-left: 600px;
+	margin-left: 400px;
 }

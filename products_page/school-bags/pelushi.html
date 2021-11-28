@@ -15,7 +15,7 @@
 	</head>
 	<body>
 		<div class='menu'>
-			<img src='../../images/Logo.png' alt='Lule' class='Logo'>
+			<a href="../../index.html"><img src='../../images/Logo.png' alt='Lule' class='Logo'></a>
 		       <ul class='navigation_menu'>
 			      <li><a href="../../index.html"><p>Home</p></a></li>
 			      <li class="dropdown"><p>Shop</p><a href=""></a>
@@ -41,11 +41,15 @@
 
 		<div class="container">
 			<div class="boxs_product">
-				<img class="box_product" src="../../images/first_bag.jpg"> 
+				<div class="zoom">
+					<img class="box_product" id="image" src="../../images/first_bag.jpg"> 
+				</div> 
 				<div class="box_product">
-					<h4>Pelushi</h4>
+					<h2>Pelushi</h2>
 					<h4>40€</h4>
-					<a href="#" class="btn-grey" type="button">Quantity</a>
+					<br>
+					<h4>Quantity</h4>
+					<input type="number" value="Quantity" step="1" id="quantity" max="20" min="0">
 					<a href="#" class="btn-orange" type="button">Buy now</a>
 					<a href="#" class="btn-orange" type="button">Add to card</a>
 					<p>Long descriptionSoft children's backpack for kids. With zip and decorated with funny little bear ears to give it an even more special touch</p>
