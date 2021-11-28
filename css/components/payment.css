@@ -124,6 +124,7 @@
 	align-items: center;
 	transition:.6s ;
 	padding-right: 200px;
+	padding-bottom: 1413px;
 }
 
 .modal:target{
