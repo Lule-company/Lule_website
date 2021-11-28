@@ -1,3 +1,108 @@
+.white-card{
+	background-color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+	border-radius: 7px;
+	margin-left: -100px;
+	margin-right: -100px;
+	margin-bottom: 50px;
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.p{
+	font-family: Catamaran;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.choice{
+	list-style-type: none;
+	list-style: none;
+	padding: 0px;
+	margin-left: 50px;
+}
+
+
+.box{
+	height: 45px;
+	background-color: #EDEDED;
+	width: 300px;
+	border: none;
+}
+
+.submit-btn{
+	background-color: #C49D83;
+	color: white;
+	text-align: center;
+	padding: 15px 60px;
+	border-radius: 4px;
+	margin: 10px 0px;
+	height: 50px;
+	margin-left: 90px;
+	border: none;
+}
+
+.column-left-card li{
+	list-style-type: none;
+	list-style: none;
+	padding: 0px;
+}
+
+.column-right-card li{
+	list-style-type: none;
+	list-style: none;
+	padding: 0px;
+}
+
+.column-left-card{
+	float: left ;
+	margin-left: 50px;
+}
+
+.column-right-card{
+	float: right;
+	margin-right: 100px;
+}
+
+.submit-order{
+	margin-top: 500px;
+}
+
+
+#payment{
+	margin-left: 90px;
+	margin-bottom: 40px;
+}
+
+
 .btnPopup{
 background-color: orangered;
 padding: 1em 2em;
