@@ -109,22 +109,6 @@
 
 /* pop-up */
 
-body{
-	background: #131416;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-}
-
-a{
-	text-decoration: none;
-	background-color: white;
-	padding: 15px;
-	border-radius: 5px;
-	text-transform: uppercase;
-	color: black;
-}
 
 .modal{
 	visibility: hidden;
