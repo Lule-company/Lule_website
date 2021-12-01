@@ -1,11 +1,11 @@
-.img1
+.main_image
 {
 	width: 400px;
 	height: 400px;
 	object-fit: cover;
 }
 
-.img2
+.medium_image
 {
 	width: 285px;
 	height:285px;
@@ -13,19 +13,20 @@
 	filter: saturate(60%) brightness(97%)
 }
 
-.img3
+.values_image
 {
 	width: 100px;
 	height: 100px;
 	object-fit: cover;
 }
-.img4{
+.small_image
+{
 	width: 150px;
 	height: 150px;
 	object-fit: cover;
 	filter: saturate(60%) brightness(97%)
 }
-.img5{
+.icon_image{
 	width: 30px;
 	height: 32.5px;
 	object-fit: cover;
